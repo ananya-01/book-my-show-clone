@@ -52,6 +52,10 @@ const HomePage = () => {
 
   return (
     <>
+      <div className= "w-full lg:my-12 lg:px-28 sm:px-38">
+        <img src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/lead-in-v3-collection-202102040828.png"
+            alt="tag" />
+      </div>
       <div className="flex flex-col gap-10">
         <div className="container mx-auto md:px-4 lg:px-28 sm:px-4 ">
           <h1 className="text-2xl font-bold text-gray-800 my-3">
