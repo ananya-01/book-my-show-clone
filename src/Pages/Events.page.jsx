@@ -1,8 +1,9 @@
 import React from "react";
 
 // component
-import Poster from "../components/Poster/poster.component";
+import Posterplay from "../components/Poster/posterplay.component";
 import PlaysFilter from "../components/PlaysFilters/PlaysFilters.component";
+import StickyFooter from "../components/Footer/footer";
 
 const Events = () => {
   return (
@@ -13,31 +14,59 @@ const Events = () => {
             <h2 className="text-2xl font-bold mb-4">Events in Bengaluru</h2>
             <div className="flex flex-wrap lg:mr-20">
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxIEF1ZyBvbndhcmRz,ots-29,otc-FFFFFF,oy-612,ox-24/et00131881-dxumkukndl-portrait.jpg"
+                  title="Vipul Goyal Live"
+                  subtitle="₹599 onwards"
                 />
               </div>
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxIEF1ZyBvbndhcmRz,ots-29,otc-FFFFFF,oy-612,ox-24/et00312495-rdgtjvrcyd-portrait.jpg"
+                  title="Uncensored - LIVE"
+                  subtitle="₹149"
                 />
               </div>
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAzMSBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00312494-bvsctmpewc-portrait.jpg"
+                  title="No-Filter Comedy Live"
+                  subtitle="₹149"
                 />
               </div>
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAzMCBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00312973-lwjqnxzykw-portrait.jpg"
+                  title="Punit Pania live in Bangalore"
+                  subtitle="₹349"
+                />
+              </div>
+              <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAzMSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00304000-jueghxcwha-portrait.jpg"
+                  title="Executive PG Programming in Machine Learning and AI"
+                  subtitle="Free"
+                />
+              </div>
+              <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAzMSBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00312591-zlrwsfhjct-portrait.jpg"
+                  title="Sunfeast YiPPee-Art and Craft"
+                  subtitle="Free"
+                />
+              </div>
+              <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAxNSBBdWc%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00304419-rypsvkxjnv-portrait.jpg"
+                  title="Still Standing by Abhijit Ganguly"
+                  subtitle="₹499"
+                />
+              </div>
+              <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCAyNiBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00312493-qgewhgdruc-portrait.jpg"
+                  title="Stand Up Comedy Live"
+                  subtitle="₹149"
                 />
               </div>
             </div>
@@ -72,6 +101,7 @@ const Events = () => {
           </div>
         </div>
       </div>
+      <StickyFooter />
     </>
   );
 };

@@ -8,6 +8,7 @@ import Slider from "react-slick";
 import MovieHero from "../components/MovieHero/MovieHero.component";
 import Cast from "../components/Cast/Cast.component";
 import PosterSlider from "../components/PosterSlider/PosterSlider.compoent";
+import StickyFooter from "../components/Footer/footer";
 
 // config
 import TempPosters from "../config/TempPosters.config";
@@ -204,6 +205,7 @@ const Movie = () => {
           />
         </div>
       </div>
+      <StickyFooter />
     </>
   );
 };

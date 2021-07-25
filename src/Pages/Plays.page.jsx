@@ -1,10 +1,13 @@
 import React from "react";
 
+
 // component
-import Poster from "../components/Poster/poster.component";
+import Posterplay from "../components/Poster/posterplay.component";
 import PlaysFilter from "../components/PlaysFilters/PlaysFilters.component";
+import StickyFooter from "../components/Footer/footer";
 
 const Plays = () => {
+  
   return (
     <>
       <div className="container mx-auto px-4">
@@ -12,33 +15,60 @@ const Plays = () => {
           <div className="lg:w-3/4">
             <h2 className="text-2xl font-bold mb-4">Plays in Bengaluru</h2>
             <div className="flex flex-wrap lg:mr-20">
+            <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+            <Posterplay
+              src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyNSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
+              title="Kanthamati"
+              subtitle="Telugu -> ₹100" />
+            </div>
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
-                />
+              <Posterplay
+              src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAzMSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00312831-rzdltgpbpx-portrait.jpg"
+              title="Admission- 31st July (Saturday)"
+              subtitle="English -> ₹199"
+              />
               </div>
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
-                />
+              <Posterplay
+              src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyNSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309176-acvpbmcyev-portrait.jpg"
+              title="Sri Venkateswar Udbhavam"
+              subtitle="Telugu-> ₹100"
+              />
               </div>
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
-                />
+              <Posterplay
+              src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAzMSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00311722-azatyzfqut-portrait.jpg"
+              title="TVK Presents Amarar Kalki"
+              subtitle="Tamil -> ₹199"
+              />
               </div>
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
-                />
+              <Posterplay
+              src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyNSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00311043-krdlmqnaev-portrait.jpg"
+              title="Ellamae Thamash Than"
+              subtitle="Tamil -> ₹150"
+              />
+              </div>
+              <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+              <Posterplay
+              src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyNSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00311720-cxaftsvppt-portrait.jpg"
+              title="TVK presents Amarar Kalki"
+              subtitle="Tamil -> ₹199"
+              />
+              </div>
+              <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+              <Posterplay
+              src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U3VuLCAyNSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309050-fsgpqjlfhw-portrait.jpg"
+              title="Bhaktha Prahlada"
+              subtitle="Telugu -> ₹100"
+              />
+              </div>
+              <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+              <Posterplay
+              src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAzMSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00312471-fxjdfruzje-portrait.jpg"
+              title="Tvk Cultural presents Ponniyin"
+              subtitle="Tamil -> ₹300"
+              />
               </div>
             </div>
           </div>
@@ -74,6 +104,7 @@ const Plays = () => {
           </div>
         </div>
       </div>
+      <StickyFooter />
     </>
   );
 };

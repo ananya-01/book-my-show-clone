@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 // Components
 import EntertainmentCardSlider from "../components/Entertainment/Entertainmentcard.component";
 import PosterSlider from "../components/PosterSlider/PosterSlider.compoent";
+import StickyFooter from "../components/Footer/footer";
 
 // config
 import TempPosters from "../config/TempPosters.config";
@@ -136,6 +137,8 @@ const HomePage = () => {
             isDark ={false}
             />
     </div>
+ <StickyFooter />
+    
     </>
   );
 };

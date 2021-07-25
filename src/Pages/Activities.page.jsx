@@ -1,8 +1,9 @@
 import React from "react";
 
 // component
-import Poster from "../components/Poster/poster.component";
+import Posterplay from "../components/Poster/posterplay.component";
 import PlaysFilter from "../components/PlaysFilters/PlaysFilters.component";
+import StickyFooter from "../components/Footer/footer";
 
 const Activities = () => {
   return (
@@ -13,31 +14,59 @@ const Activities = () => {
             <h2 className="text-2xl font-bold mb-4">Activities in Bengaluru</h2>
             <div className="flex flex-wrap lg:mr-20">
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCAyNiBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00312640-hmkbthtqxc-portrait.jpg"
+                  title="Big Banyan Vineyard Tour"
+                  subtitle="₹332 onwards"
                 />
               </div>
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAzMCBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00088164-bhtcgdjkcr-portrait.jpg"
+                  title="Indian Music Experience Museum"
+                  subtitle="₹150 onwards"
                 />
               </div>
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCAyNiBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00312387-szsmwjkjdh-portrait.jpg"
+                  title="Sit Down Buffet"
+                  subtitle="₹605 onwards"
                 />
               </div>
               <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
-                <Poster
-                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxNyBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309696-fsqhgswrqc-portrait.jpg"
-                  title="`Kanthamathi` (Sadarame) Surabhi Theatre Play"
-                  subtitle="Telugu -> ₹400"
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAzMSBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00312759-pmmlmgcdws-portrait.jpg"
+                  title="Virtual Tour to HAMPI"
+                  subtitle="₹100"
+                />
+              </div>
+              <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCAyNiBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00309721-zayphtsqva-portrait.jpg"
+                  title="Lakeside Camping in Kanva"
+                  subtitle="₹1349 onwards"
+                />
+              </div>
+              <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAzMCBKdWw%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00076407-qxlwrwvedu-portrait.jpg"
+                  title="My Hikes- Kudermukh Trek"
+                  subtitle="₹4499"
+                />
+              </div>
+              <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCAyNiBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00312553-xlberxebjs-portrait.jpg"
+                  title="Stay @ Wonderla Resort"
+                  subtitle="₹5480"
+                />
+              </div>
+              <div className="w-1/2 md:w-1/3 lg:w-3/12 my-3">
+                <Posterplay
+                  src="https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-TW9uLCAyNiBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24/et00312054-zcwsemxtkq-portrait.jpg"
+                  title="Prasad from Jagannath Puri"
+                  subtitle="₹499"
                 />
               </div>
             </div>
@@ -70,6 +99,7 @@ const Activities = () => {
           </div>
         </div>
       </div>
+      <StickyFooter />
     </>
   );
 };
