@@ -39,7 +39,7 @@ const NavLg = () => {
   return (
     <>
     <div className="container mx-auto flex flex-col"> 
-      <div className="container mx-auto px-4 flex items-center justify-between ">
+      <div className="container mx-auto px-4 flex items-center justify-between mb-4 ">
         <div className="flex items-center w-1/2 gap-3">
           <div className="w-12 h-12">
             <img
@@ -69,14 +69,14 @@ const NavLg = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col px-5 text-white text-sm font-bold">
+      <div className="flex flex-col px-5 text-white text-sm font-bold mb-2">
         <nav>
-          <a href="#" >Home</a>
-          <a href="#" >Events</a> 
-          <a href="#" >Plays</a> 
-          <a href="#" >Sports</a>
-          <a href="#" >Stream</a>
-          <a href="#" >Activities</a>
+          <a className="px-5" href="/" >Home</a>
+          <a className="px-5" href="/events" >Events</a> 
+          <a className="px-5" href="/plays" >Plays</a> 
+          <a className="px-5" href="/sports" >Sports</a>
+          <a className="px-5" href="/activities" >Activities</a>
+          <a className="px-5" href="/stream" >Stream</a>   
         </nav>
       </div>
       </div> 
