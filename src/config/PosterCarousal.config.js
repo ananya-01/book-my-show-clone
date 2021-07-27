@@ -14,7 +14,7 @@ const PosterCarouselsettings = {
       },
     },
     {
-      breakpoint: 640,
+      breakpoint: 600,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
@@ -22,10 +22,11 @@ const PosterCarouselsettings = {
       },
     },
     {
-      breakpoint: 475,
+      breakpoint: 480,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
+        initialSlide: 2,
       },
     },
   ],
