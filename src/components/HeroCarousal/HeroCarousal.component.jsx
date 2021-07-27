@@ -31,6 +31,7 @@ const HeroCarousal = () => {
 
   const settings = {
     arrows: true,
+    centerMode: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
