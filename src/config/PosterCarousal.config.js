@@ -1,4 +1,4 @@
-const settings = {
+const PosterCarouselsettings = {
   infinite: false,
   speed: 500,
   slidesToShow: 5,
@@ -14,7 +14,7 @@ const settings = {
       },
     },
     {
-      breakpoint: 600,
+      breakpoint: 640,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
@@ -22,7 +22,7 @@ const settings = {
       },
     },
     {
-      breakpoint: 480,
+      breakpoint: 475,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -31,4 +31,4 @@ const settings = {
   ],
 };
 
-export default settings;
+export default PosterCarouselsettings;
